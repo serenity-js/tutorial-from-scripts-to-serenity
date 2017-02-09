@@ -1,5 +1,4 @@
-import { PerformsTasks, Task } from 'serenity-js/lib/screenplay';
-import { Open } from 'serenity-js/lib/screenplay-protractor';
+import { Open, PerformsTasks, Task, step } from 'serenity-js/lib/screenplay-protractor';     // imports the @step
 
 import { AddATodoItem } from './add_a_todo_item';
 
@@ -9,6 +8,7 @@ export class Start implements Task {
         return new Start(items);
     }
 
+    @step('{0} starts with a Todo List containing #items')      // Gives the Task a more descriptive name
     performAs(actor: PerformsTasks): PromiseLike<void> {
         return actor.attemptsTo(
             Open.browserOn('/examples/angularjs/'),

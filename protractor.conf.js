@@ -6,7 +6,7 @@ exports.config = {
     allScriptsTimeout: 110000,
 
     framework: 'custom',
-    frameworkPath: require.resolve('protractor-cucumber-framework'),
+    frameworkPath: require.resolve('serenity-js'),
 
     specs: [ 'features/**/*.feature' ],
 
