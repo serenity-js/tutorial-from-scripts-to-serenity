@@ -1,0 +1,41 @@
+{
+  "name": "tutorial-from-scripts-to-serenity",
+  "version": "1.0.0",
+  "description": "From Scripts to Serenity",
+  "main": "index.js",
+  "scripts": {
+    "preprotractor": "webdriver-manager update --standalone",
+    "protractor": "protractor ./protractor.conf.js",
+    "test": "npm run protractor --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenity-js/tutorial-from-scripts-to-serenity.git"
+  },
+  "keywords": [
+    "serenity-js",
+    "protractor",
+    "cucumber"
+  ],
+  "author": "Jan Molak <jan.molak@smartcodeltd.co.uk>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/serenity-js/tutorial-from-scripts-to-serenity/issues"
+  },
+  "homepage": "http://serenity-js.org/from-scripts-to-serenity/readme.html",
+  "devDependencies": {
+    "@types/chai": "3.4.34",
+    "@types/chai-as-promised": "0.0.29",
+    "@types/cucumber": "0.0.35",
+    "@types/node": "7.0.5",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "cucumber": "1.3.1",
+    "cucumber-html-report": "0.5.6",
+    "protractor": "5.0.0",
+    "protractor-cucumber-framework": "0.6.0",
+    "ts-node": "2.0.0",
+    "tslint": "4.4.2",
+    "typescript": "2.1.5"
+  }
+}
