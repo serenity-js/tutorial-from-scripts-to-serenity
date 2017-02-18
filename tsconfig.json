@@ -10,10 +10,6 @@
     "outDir": "./staging/transpiled"
   },
 
-  "files": [
-    "node_modules/chai-smoothie/lib/chai-smoothie.d.ts"
-  ],
-
   "include": [
     "src/**/*.ts",
     "spec/**/*.ts"
