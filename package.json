@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf target",
-    "preprotractor": "webdriver-manager update --standalone",
+    "preprotractor": "webdriver-manager update --standalone --versions.standalone=2.53.1 --versions.chrome=2.28",
     "protractor": "protractor ./protractor.conf.js",
     "pretest": "serenity update",
     "report": "serenity run",
