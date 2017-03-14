@@ -2,7 +2,7 @@
 
 This project acts as supplementary material for
 the official [Serenity/JS](https://github.com/jan-molak/serenity-js) tutorial: 
-["From Scripts to Serenity](http://serenity-js.org/from-scripts-to-serenity/readme.html).
+["From Scripts to Serenity"](http://serenity-js.org/from-scripts-to-serenity/readme.html).
 
 ## Prerequisites
 
