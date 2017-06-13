@@ -1,5 +1,4 @@
-import { Actor } from 'serenity-js/lib/screenplay';
-import { BrowseTheWeb } from 'serenity-js/lib/screenplay-protractor';
+import { Actor, BrowseTheWeb } from 'serenity-js/lib/screenplay-protractor';
 import { protractor } from 'protractor';
 
 import { Start, AddATodoItem } from '../../spec/screenplay/tasks';
@@ -8,6 +7,9 @@ import { expect } from '../../spec/expect';
 import { TodoList } from '../../spec/screenplay/components/todo_list';
 
 export = function todoUserSteps() {
+
+    this.setDefaultTimeout(30 * 1000);  // The todomvc.com website can sometimes be a bit slow to load, so we tell
+                                        // Cucumber to give it up to 30 seconds to get ready.
 
     let actor: Actor;
 
