@@ -39,8 +39,5 @@ exports.config = {
                 // 'show-fps-counter=true'
             ]
         }
-    },
-
-    // so that every tests starts with a system in a known state
-    restartBrowserBetweenTests: true
+    }
 };
