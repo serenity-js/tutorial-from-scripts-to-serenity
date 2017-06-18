@@ -39,7 +39,7 @@
     "protractor": "5.1.2",
     "protractor-cucumber-framework": "3.1.2",
     "rimraf": "^2.5.4",
-    "serenity-cli": "^0.1.6",
+    "serenity-cli": ">= 0.4.0",
     "serenity-js": ">= 1.7.0",
     "ts-node": "3.0.6",
     "tslint": "5.4.3",
