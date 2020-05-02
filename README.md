@@ -1,3 +1,13 @@
+# This project has been deprecated
+
+This repository used to help you get started with Serenity/JS 1.x, but now that version 2.0 of the framework is available, you should use one of the new template projects instead:
+- [`serenity-js-cucumber-protractor-template`](https://github.com/serenity-js/serenity-js-cucumber-protractor-template)
+- [`serenity-js-jasmine-protractor-template`](https://github.com/serenity-js/serenity-js-jasmine-protractor-template)
+
+You might be also interested in the [video](https://serenity-js.org/handbook/demo.html) demonstrating some of the new features, as well as the [updated tutorial](https://serenity-js.org/handbook/thinking-in-serenity-js/index.html).
+
+---
+
 # Serenity/JS - Getting Started
 
 This project acts as supplementary material for
